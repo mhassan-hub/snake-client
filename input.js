@@ -11,6 +11,8 @@ const handleUserInput = (key) => {
     connection.write('Move: down');
   } else if (key === 'd'){
     connection.write('Move: right');
+  } else if (key === 'x'){
+    connection.write('Say: Kanye is a Genius');
   }
 
 };
